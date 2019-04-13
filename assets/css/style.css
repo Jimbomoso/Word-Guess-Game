@@ -1,0 +1,37 @@
+header {
+    border: 3px solid black;
+    font-size: 52px;
+    text-align: center;
+    margin: 15px auto;
+    height: 350px;
+    width: 75%;
+    color: lawngreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.selectedWord {
+    border: 3px solid black;
+    font-size: 22px;
+    text-align: center;
+    margin: 15px auto;
+    height: 125px;
+    width: 75%;   
+}
+
+.correctGuess {
+    border: 3px solid black;
+    font-size: 22px;
+    text-align: center;
+    margin: 15px auto;
+    height: 125px;
+    width: 75%;
+}
+
+.wrongGuess {
+    border: 3px solid black;
+    font-size: 22px;
+    text-align: center;
+    margin: 15px auto;
+    height: 125px;
+    width: 75%;
+}
