@@ -1,56 +1,49 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Dog Breed Guess Game</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- reset come first -->
-        <link rel="stylesheet" href="assets/css/reset.css">
-        <!-- local CSS -->
-        <link rel="stylesheet" href="assets/css/style.css">
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Hang dog</title>
+		<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Kranky" rel="stylesheet">
+	</head>
+	<body>
+		
+		<div id="main-content">
+			<div class="content">
+				<div id="title">
+					<h1> Dog Breed Guessing Game </h1>
+					<br>
+					<p> Type any letter to start </p>
+				</div>
+				<div id="game-div" class="panel">
+					<div id="word-display">
+						<p id="word-display-letters"></p>
+					</div>
+				</div>
+				<div id="alerts">
+						<pre><p> <span class="alert-line"></span> </p></pre>
+				</div>
+				<div id="general-display">
+					<div class="stats">
+						<p> Scoreboard: </p>
+					</div>
+					<br>
+					<div class="metrics">
+						<p> Guessed Letters: </p> 
+						<p id="guessed-letters"> </p> 
+						<p>Incorrect Guesses: </p> 
+						<p id="error-count"> </p> 
+						<p>Wins: </p> 
+						<p id="win-count"> </p> 
+						<p>Losses:</p> 
+						<p id="loss-count"> </p>
+					</div>
+				</div>
+			</div>
 
-    </head>
+		</div>
 
-    <body>
-        <div class="container">
-            <header>
-                <h1> Dog Breed Guess Game </h1>
-                <br> 
-                <h2> Guess away </h2>
-            </header>
-            
-            <div class="selectedWord">
-                <h1> Mystery breed </h1>
-                <div class="letterSpace"> 
-                </div>
-            </div>
-            
-            
-            <div class="correctGuess">
-                <h1> Correct Guesses</h1>
-                <br>
-                <div class="correctGuessSpace">
-
-                </div>
-            </div>
-            
-            <div class="wrongGuess">
-                <h1> Wrong Guesses</h1>
-                <br>
-                <div class="wrongGuessSpace">
-
-                </div>
-            </div>
-
-
-        
-
-        </div>
-        
-
-
-        <!-- local javascript -->
-        <script src="assets/javascript/game.js" async defer></script>
-    </body>
+		<script type="text/javascript" src="./assets/javascript/game.js"></script>
+	</body>
 </html>
